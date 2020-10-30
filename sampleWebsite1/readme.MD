@@ -1,5 +1,5 @@
 # Ryan's TicTacToe JavaScript Demonstration
-This is a website I created for Media Predict to demonstrate a basic understanding of Django, HTML, and JavaScript.
+This is a website I created for Media Predict to demonstrate an understanding of Django, HTML, and JavaScript.
 
 ### Compilation Instructions
 1. Clone the repository `$ git clone https://github.com/ryan-tech/Javascript/sampleWebsite1.git`
