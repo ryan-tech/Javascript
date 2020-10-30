@@ -1,0 +1,44 @@
+<!--
+    Author: Ryan Kim
+    Date: October 29, 2020
+    Purpose: Sample of Javascript code for Media Predict Application
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Including Board Utils -->
+    {% load static %}
+    <script src= " {% static "/js/BoardUtils.js" %}" type="text/javascript"></script>
+</head>
+
+<body onload="reset()">
+
+<h1>Tic-Tac-Toe</h1>
+<h3>Instructions:</h3>
+<p>
+1. Select which shape Player 1 would like to play as. Player 2 will be the shape that Player 1 did not choose.<br>
+2. Players take turns marking squares with their shapes. <br>
+3. First one to get 3 of their shapes in a row is the winner.</p>
+
+<button onclick="reset()" type="button">Reset The Game</button>
+<br>
+<br>
+<div id="Status">
+
+    Player 1: Select a Shape.
+    <button onclick="runGame('O')" type="button">O</button>
+    <button onclick="runGame('X')" type="button">X</button>
+    <br>
+</div>
+
+<!-- Sets up the board's canvas: -->
+<canvas id="Board" width="300" height="300" style="border:0px solid #000000;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+
+
+
+
+</body>
+</html>
+
